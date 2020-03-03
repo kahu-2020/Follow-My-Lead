@@ -130,8 +130,29 @@ class DogProfile extends React.Component {
         console.log('id deets' + this.state.walker_id)
         return (
             <>
-                <h1 className="page-title">{this.state.name}'s profile</h1>
-                <div className="profile-container">
+
+
+            <h1 className="page-title">{this.state.name}'s profile</h1>
+            <div className="profile-container">
+                
+                <img className="profile-picture" src={this.state.photo} />
+                <p> <strong>Suburb: </strong> {this.state.suburb}</p>
+                <br />
+
+                <div className="profile-info">
+
+
+                    <p>Name:{this.state.name}</p>
+                    <p>Breed: {this.state.breed}</p>
+                    <p>Sex: {this.state.sex}</p>
+                    <p>Size: {this.state.size}</p>
+                    <p>Walk Length: {this.state.activity_requirements}</p>
+                    <p>Good with other dogs: {this.state.good_with_other_dogs}</p>
+                    <p>Special Requirements: {this.state.special_requirements}</p>
+                    <p>Vet Practice: {this.state.vet_name}</p>
+                    <p>Vet Contact: {this.state.vet_contact}</p>
+                    
+
 
                     <img className="profile-picture" src={this.state.photo} />
                     <p>Suburb: {this.state.suburb}</p>
