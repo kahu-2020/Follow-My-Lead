@@ -1074,10 +1074,10 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "button",
         to: "/Register/Owner"
-      }, "Register your Dog"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, "Register As An Owner"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         className: "button",
         to: "/Register/Walker"
-      }, "Register to Dog Walk"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Register As A Dog Walker"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "blurb-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "blurb-headline"
