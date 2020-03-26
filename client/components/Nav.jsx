@@ -4,13 +4,12 @@ import { logOff } from 'authenticare/client';
 import { getUserDetails } from '../api/walkerApi';
 import { getDecodedToken, isAuthenticated } from 'authenticare/client';
 import { IfAuthenticated, IfNotAuthenticated } from './Authenticated';
+import 
 
 class Nav extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      profileUrl: ''
-    };
+
   }
 
   componentDidMount() {
