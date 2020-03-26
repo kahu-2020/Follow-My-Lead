@@ -51,7 +51,7 @@ class DogProfile extends React.Component {
           getOwner(dog.owner_id)
             //set suburb state to this dog's owner's location
             .then(owner => {
-              console.log(owner);
+
               this.setState({
                 photo: dog.photo,
                 name: dog.name,
@@ -135,7 +135,7 @@ class DogProfile extends React.Component {
   }
 
   render() {
-    console.log('id deets' + this.state.walker_id);
+
     return (
       <>
         <h1 className="page-title">{this.state.name}'s profile</h1>

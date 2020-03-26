@@ -16,7 +16,7 @@ export function getOwner(id) {
 }
 
 export function editOwner(id, owner) {
-  console.log(owner);
+
   return request
     .put(URL + id + '/edit')
     .set({ Authorization: `Bearer ${getEncodedToken()}` })

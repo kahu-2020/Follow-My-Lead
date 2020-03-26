@@ -43,7 +43,6 @@ export function editWalker(id, walker) {
     .set({ Accept: 'application/json' })
     .send(walker)
     .then(res => res.body.walker);
-  // .catch(err => console.log(err))
 }
 
 //api ok

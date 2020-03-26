@@ -29,7 +29,6 @@ class RegisterDog extends React.Component {
 
   componentDidMount() {
     getDogs().then(dogs => {
-      console.log('dog.length: ', dogs.length + 1);
       this.setState({ id: dogs.length + 1 });
     });
   }

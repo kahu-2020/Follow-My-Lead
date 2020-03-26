@@ -28,8 +28,6 @@ router.put('/:id', (req, res) => {
 });
 
 router.post('/', getTokenDecoder(), (req, res) => {
-  // console.log(req.files)
-  // console.log("youve made it to the post route")
   const dog = req.body;
   getUserDetails(req.user.id)
     .then(user => {
@@ -39,7 +37,6 @@ router.post('/', getTokenDecoder(), (req, res) => {
       });
     })
     .catch(err => {
-      // console.log(err)
       res.status(500).json({});
     });
 });

@@ -26,7 +26,6 @@ function addOwner(owner, db = connection) {
 // }
 
 function editOwner(id, owner, db = connection) {
-  console.log('db function working');
   return db('owner_table')
     .where('id', id)
     .update({

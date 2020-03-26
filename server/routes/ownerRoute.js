@@ -17,14 +17,11 @@ router.post('/', getTokenDecoder(), (req, res) => {
       res.json({ id: id[0] });
     })
     .catch(err => {
-      // console.log(err)
       res.status(500).json({});
     });
 });
 
 router.put('/:id/edit', getTokenDecoder(), (req, res) => {
-  console.log(req.params.id);
-  console.log(req.body);
   let id = req.params.id;
   let updatedOwner = req.body;
   db.editOwner(id, updatedOwner);
