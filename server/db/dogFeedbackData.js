@@ -13,5 +13,5 @@ function getFeedback(id, db = connection) {
 // }
 
 module.exports = {
-  getFeedback,
+  getFeedback
 };

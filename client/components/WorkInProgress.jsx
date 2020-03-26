@@ -10,8 +10,11 @@ function WorkInProgress() {
         <div className="blurb-text form-container">
           Looks like social hasn't been uploaded yet, too busy walking dogs!
         </div>
-        <div >
-          <img className='profile-picture' src="../../server/public/images/dogGif.gif"/>
+        <div>
+          <img
+            className="profile-picture"
+            src="../../server/public/images/dogGif.gif"
+          />
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
-
-exports.up = function (knex) {
+exports.up = function(knex) {
   return knex.schema.createTable('owner_table', table => {
     table.increments('id').primary();
     table.integer('feedback_id');
@@ -8,10 +7,10 @@ exports.up = function (knex) {
     table.string('photo');
     table.string('location');
     table.string('email');
-    table.integer('user_id')
+    table.integer('user_id');
   });
 };
 
-exports.down = function (knex) {
-  return knex.schema.dropTable('owner_table')
+exports.down = function(knex) {
+  return knex.schema.dropTable('owner_table');
 };

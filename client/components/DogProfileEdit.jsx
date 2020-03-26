@@ -40,13 +40,13 @@ class DogProfileEdit extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    add
+    add;
   };
 
   render() {
     return (
       <div>
-        <form className='form' onSubmit={this.handleSubmit}>
+        <form className="form" onSubmit={this.handleSubmit}>
           <h1 className="page-title">Edit Dog Registration Form</h1>
           <br />
           <label>
@@ -57,7 +57,7 @@ class DogProfileEdit extends React.Component {
               name="Name"
               onChange={this.handleChange}
               placeholder="Name"
-              autocomplete="off"
+              autoComplete="off"
             />
           </label>
           <br />
@@ -69,7 +69,7 @@ class DogProfileEdit extends React.Component {
               name="Breed"
               onChange={this.handleChange}
               placeholder="Breed"
-              autocomplete="off"
+              autoComplete="off"
             />
           </label>
           <br />
@@ -81,7 +81,7 @@ class DogProfileEdit extends React.Component {
               name="Sex"
               onChange={this.handleChange}
               placeholder="Sex"
-              autocomplete="off"
+              autoComplete="off"
             />
           </label>
           <br />
@@ -93,7 +93,7 @@ class DogProfileEdit extends React.Component {
               name="Age"
               onChange={this.handleChange}
               placeholder="Age"
-              autocomplete="off"
+              autoComplete="off"
             />
           </label>
           <br />
@@ -105,7 +105,7 @@ class DogProfileEdit extends React.Component {
               name="Size"
               onChange={this.handleChange}
               placeholder="Size"
-              autocomplete="off"
+              autoComplete="off"
             />
           </label>
           <br />
@@ -117,7 +117,7 @@ class DogProfileEdit extends React.Component {
               name="Activity Requirements"
               onChange={this.handleChange}
               placeholder="Activity Requirements"
-              autocomplete="off"
+              autoComplete="off"
             />
           </label>
           <br />
@@ -129,7 +129,7 @@ class DogProfileEdit extends React.Component {
               name="Good with other Dogs"
               onChange={this.handleChange}
               placeholder="Good with other Dogs"
-              autocomplete="off"
+              autoComplete="off"
             />
           </label>
           <label>
@@ -140,7 +140,7 @@ class DogProfileEdit extends React.Component {
               name="Special Requirements"
               onChange={this.handleChange}
               placeholder="Special Requirements"
-              autocomplete="off"
+              autoComplete="off"
             />
           </label>
           <label>
@@ -151,7 +151,7 @@ class DogProfileEdit extends React.Component {
               name="photo"
               onChange={this.handleChange}
               placeholder="Photo"
-              autocomplete="off"
+              autoComplete="off"
             />
           </label>
           {/* <ImageUploader
@@ -162,7 +162,6 @@ class DogProfileEdit extends React.Component {
             maxFileSize={5242880}
           /> */}
 
-          
           <label>
             {' '}
             Vet Name:
