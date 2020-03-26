@@ -21,11 +21,11 @@ class Nav extends React.Component {
                 .then(user => {
                     if (user.owner) {
                         this.setState({
-                            profileUrl: '/owner/' + user.owner.id
+                            profileUrl: '/owner' + user.owner.id
                         })
                     } else {
                         this.setState({
-                            profileUrl: '/walker/' + user.walker.id
+                            profileUrl: '/walker' + user.walker.id
                         })
                     }
                 })
