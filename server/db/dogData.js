@@ -16,7 +16,7 @@ function getDog(id, db = connection) {
 
 function addDog(dog, db = connection) {
   return db('dog_table')
-    .insert(dog)
+    .insert(dog, 'id')
     .debug();
 }
 
